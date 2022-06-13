@@ -1,0 +1,904 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  max-width: 1800px;
+  text-align: center;
+}
+.links a {
+  text-decoration: none;
+  color: #000000;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/* nav section */
+nav {
+  background: #ffd000;
+  background: blanchedalmond;
+  border-bottom: 3px solid orange;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.4rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 4rem;
+}
+.links h5 {
+  margin-left: 3rem;
+  cursor: pointer;
+}
+.links a:hover {
+  color: #ffd000;
+}
+.h1 {
+  margin-left: 2rem;
+}
+.h1 h1 {
+  font-size: 2rem;
+  margin-top: 0.4rem;
+}
+.nav-img {
+  width: 2.6rem;
+  height: fit-content;
+}
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* main section */
+.main1 {
+  margin: auto;
+  background-image: url(images/pexels-tara-winstead-6489734.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.6rem;
+}
+
+/* carousel section */
+#carousel-img {
+  width: 100%;
+  height: 100%;
+}
+.cimg {
+  width: 80%;
+  margin: auto;
+  height: 41rem;
+}
+/* cards section */
+.cardwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main2 {
+  background: moccasin;
+  background: blanchedalmond;
+}
+main h1 {
+  color: #ffd000;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+.cardcontainer {
+  width: 23rem;
+  padding-bottom: 1rem;
+  background: #08192b;
+  margin: 0rem 1rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.cardimg {
+  width: 100%;
+  height: 16em;
+  margin-bottom: 0.4rem;
+}
+.cardinfo {
+  margin-left: 1.11rem;
+  line-height: 0rem;
+}
+.cardcontainer button {
+  width: 90%;
+  background: #ffd000;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 0.1rem;
+  padding: 0.4rem 0.1rem;
+  font-weight: bold;
+}
+.btncontainer button:hover ,
+.soupbtn button:hover,
+.plainbtncontainer button:hover{
+  background: rgb(255, 208, 0, 0.8);
+}
+.btncontainer,
+.soupbtn,
+.plainbtncontainer {
+  margin: auto;
+  text-align: center;
+}
+.plainbtncontainer {
+  margin-top: 2rem;
+}
+.foodinfo {
+  display: flex;
+  align-items: center;
+  margin: 0rem;
+}
+.cardinfo p {
+  line-height: 0.3rem;
+}
+.foodinfo .price {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 1.1rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.email form input{
+  padding: 2rem;
+  background-color: red !important;
+}
+.protein {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.24rem;
+}
+.protein p {
+  margin-left: 0.5rem;
+  margin: 0.6rem 0rem;
+  cursor: pointer;
+}
+.addbtn,
+.addsoupbtn,
+.plainaddbtn {
+  width: 1.1rem;
+  margin-right: 0.15rem;
+  cursor: pointer;
+}
+.main3 {
+  background: #000000;
+  background: #f8f9fa;
+  padding-bottom: 3rem;
+}
+/* review section */
+.reviewcard {
+  background: blanchedalmond;
+  width: 22rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  margin: 1rem;
+}
+.reviewimg {
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  background: white;
+  padding: 0.7rem;
+  padding-bottom: 1.2rem;
+  border-radius: 50%;
+}
+.review {
+  text-align: center;
+}
+.reviewstar {
+  display: flex;
+  align-items: center;
+  margin-left: 27%;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.reviewwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* contact */
+.contactwrapper {
+  width: 37rem;
+  background: blanchedalmond;
+  text-align: center;
+  padding: 1.25rem 0rem;
+}
+.contactimg {
+  width: 37rem;
+  height: 25.7rem;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 3rem;
+}
+.contactwrapper input,
+.contactwrapper textarea {
+  width: 90%;
+  background: #f8f9fa;
+  background: white;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1rem;
+}
+.contactwrapper input {
+  margin-bottom: 1rem;
+  padding:0.6rem 1rem;
+
+}
+
+.contactwrapper button {
+  width: 90%;
+  background: #ffd000;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 0.1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.7rem 0.1rem;
+  margin-top: 0.6rem;
+}
+.contactwrapper button:hover {
+  background: rgb(255, 208, 0, 0.8);
+}
+/* footer */
+footer {
+  background: #08192b;
+  color: white;
+}
+.footerlink {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.footerlink h6 {
+  margin: 2rem;
+  cursor: pointer;
+}
+.footerlink h6:hover {
+  color: #ffd000;
+}
+
+.app-container h2,
+.app-container p {
+  color: white;
+}
+.app-container h2 {
+  font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app-container p {
+  font-size: 0.9rem;
+}
+.app1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-img {
+  margin-left: 0.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.app1 {
+  cursor: pointer;
+  width: fit-content;
+  border: 1.6px solid white;
+  border-radius: 0.2rem;
+  margin: 0.4rem;
+}
+.app1:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+.app-img-container {
+  display: flex;
+}
+.text-container h2 {
+  font-size: 1rem;
+  text-align: start;
+  margin: 0em;
+}
+.text-container {
+  padding: 0.2rem 0.9rem;
+  width: fit-content;
+  margin: 0em;
+}
+.text-container p {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0em;
+}
+.links2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background: rgba(17, 16, 16, 0.8);
+}
+.app-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  width: fit-content;
+  line-height: 0.8rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.links2 {
+  flex-wrap: wrap;
+}
+.tgram {
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.sm {
+  width: 2rem;
+}
+.sm-links {
+  background: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.sm {
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+}
+/* checkout section */
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: blanchedalmond;
+  border-bottom: 3px solid orange;
+}
+.checkout .h1 {
+  text-align: center;
+  margin-left: 25%;
+}
+.checkout,
+.soup {
+  width: 40rem;
+  /* background: #f1f1f1; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  box-shadow: 0px 3px 3px #08192b;
+  top: 50%;
+  display: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  position: fixed;
+  z-index: 5;
+}
+.cancel {
+  text-align: end;
+  margin-left: auto;
+  color: red;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.prot,
+.topp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.checkout h4,
+.soup h4 {
+  text-align: center;
+}
+.pro-teins{
+  background-color: #f1f1f1;
+}
+.pro-teins h4{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.proteins,
+.toppings {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.customerinfo {
+  background: blanchedalmond;
+  display: block;
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-top: 1px solid rgb(0, 0, 0, 0.5);
+  /* box-shadow: 4px 4px 4px 4px black; */
+}
+.customerinfo input,
+.customerinfo textarea {
+  display: block;
+  background: white;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  width: 90%;
+  margin: auto;
+  border-radius: 0.2rem;
+}
+.prot-price {
+  font-size: 0.9rem;
+  /* font-weight: 100; */
+}
+.prot label,
+.topp label {
+  font-weight: bold;
+  display: block;
+  margin: 0rem;
+  line-height: 1rem;
+  cursor: pointer;
+}
+.prot input,
+.topp input {
+  cursor: pointer;
+}
+.customerinfo textarea {
+  margin-top: 1rem;
+  height: 8rem;
+}
+.proteinbtn {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+  text-align: end;
+  margin-right: 2rem;
+}
+.foodprice {
+  margin-left: 0.4rem;
+}
+
+.phonecontainer {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+.note {
+  display: inline;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.77rem;
+}
+.phone h6 {
+  margin-bottom: 0rem;
+}
+.notice {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.phoneimg {
+  width: 1.19rem;
+  margin-right: 0.1rem;
+}
+
+.total {
+  display: flex;
+  color: black;
+  background: #ffd000;
+  box-shadow: 0px 1px 3px rgb(0, 0, 0, 0.5);
+  padding: 0.39rem 0.7rem;
+  margin-bottom: 0.7rem;
+  margin-right: 2rem;
+}
+
+.proteinbtn button {
+  background: red;
+  outline: none;
+  border: none;
+  box-shadow: 0px 1px 3px rgb(0, 0, 0, 0.5);
+  border-radius: 0.1rem;
+  padding: 0.39rem 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.clearbtn button {
+  width: 90%;
+  background: #ffd000;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 0.1rem;
+  padding: 0.6rem 0.1rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+/* javascript */
+.block {
+  display: block;
+}
+.background {
+  z-index: 83;
+  filter: blur(4px);
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+.none {
+  display: none;
+}
+/* @media only screen and (max-width: 1535px) { */
+@media only screen and (max-height: 1273px) {
+}
+@media only screen and (max-width: 1097px) {
+  .cardimg {
+    height: 11.7rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .cardcontainer button {
+    padding: 0.3rem;
+    margin: 0rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .footerlink h6 {
+    margin: 0.9rem 0.7rem;
+  }
+  .app-container {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 813px) {
+  .protein p {
+    line-height: 0rem;
+    margin-left: 0.2rem;
+  }
+  .cardcontainer {
+    margin-bottom: 0.9rem;
+  }
+  .cardwrapper {
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 804px) {
+  .cardwrapper {
+    flex-wrap: wrap;
+  }
+  .cardcontainer {
+    margin: 0.9rem 6rem;
+  }
+  .cardimg {
+    height: 14rem;
+    margin-bottom: 0.4rem;
+  }
+}
+@media only screen and (max-height: 590px) {
+  .cimg {
+    width: 90%;
+    margin: auto;
+    height: 81vh;
+  }
+  .checkout,
+  .soup{
+    height: 90%;
+    overflow-y: auto;
+    box-shadow: none;
+    width: 90%;
+    border-top: 1px solid black;
+  }
+  
+  .links {
+    margin-right: 1rem;
+  }
+  .links h5 {
+    margin-left: 1.1rem;
+  }
+  .customerinfo{
+    border: 1px solid black;
+  }
+  .checkout .heading,
+  .pro-teins,
+  .soup .heading{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .plainbtncontainer {
+    margin-top: 0rem;
+  }
+  .plain{
+    height:fit-content ;
+    box-shadow: 0px 1px 3px #08192b;
+  }
+}
+@media only screen and (max-width: 754px) {
+  .cimg {
+    width: 90%;
+    margin: auto;
+    height: 81vh;
+  }
+  .checkout,
+  .soup{
+    height: 90%;
+    overflow-y: auto;
+    box-shadow: none;
+    width: 90%;
+    border-top: 1px solid black;
+  }
+  
+  .links {
+    margin-right: 1rem;
+  }
+  .links h5 {
+    margin-left: 1.1rem;
+  }
+  .customerinfo{
+    border: 1px solid black;
+  }
+  .checkout .heading,
+  .pro-teins,
+  .soup .heading{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .plainbtncontainer {
+    margin-top: 0rem;
+  }
+  .plain{
+    height:fit-content ;
+    box-shadow: 0px 1px 3px #08192b;
+  }
+}
+@media only screen and (max-width: 732px) {
+  .contactimg {
+    display: none;
+  }
+  .cardcontainer {
+    margin: 0.9rem;
+  }
+}
+@media only screen and (max-width: 722px) {
+  .phone h6 {
+    font-size: 0.86rem;
+  }
+  .phoneimg {
+    width: 1rem;
+    /* height: 1rem; */
+    margin-right: 0.12rem;
+  }
+  .foodprice,
+  .foodpricenaira,
+  .reset {
+    font-size: 0.8rem;
+  }
+  .total {
+    padding: 0.34rem 0.56rem;
+  }
+  .proteinbtn button {
+    padding: 0.31rem 0.97rem;
+  }
+}
+@media only screen and (max-width: 713px) {
+  .checkout h4,
+  .soup h4 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+  .protein h6 {
+    font-size: 0.8rem;
+  }
+  .prot label,
+  .topp label {
+    font-size: 0.8rem;
+  }
+  .total {
+    padding: 0.2rem 0.4rem;
+  }
+  .proteinbtn {
+    margin-top: 0.8rem;
+  }
+  .proteinbtn button {
+    padding: 0.2rem 0.4rem;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .h1 {
+    margin-left: 0.7rem;
+  }
+  .h1 h1 {
+    font-size: 1.6rem;
+  }
+  .links h5 {
+    font-size: 1rem;
+  }
+  .nav-img {
+    width: 2.3rem;
+  }
+  .total {
+    margin-right: 0.8rem;
+  }
+}
+@media only screen and (max-width: 621px) {
+  .phonecontainer {
+    margin-left: 0.36rem;
+  }
+  .text-xl{
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 569px) {
+  .notice {
+    margin-left: 0.3rem;
+  }
+  .phonecontainer {
+    margin-right: 0.3rem;
+  }
+}
+@media only screen and (max-width: 547px) {
+  .cimg {
+    width: 95%;
+    margin: auto;
+    height: 71vh;
+  }
+}
+@media only screen and (max-width: 507px) {
+  .checkout .h1 {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .checkout input,
+  .checkout textarea,
+  .soup input,
+  .soup textarea {
+    padding: 0.59rem;
+  }
+  .customerinfo {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .clearbtn button {
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
+  }
+  .customerinfo textarea {
+    margin-top: 0.5rem;
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 449px) {
+  .h1 {
+    margin-left: 0.4rem;
+  }
+  .cimg {
+    height: 60vh;
+  }
+  .h1 h1 {
+    font-size: 1.37rem;
+  }
+  .links h5 {
+    font-size: 0.9rem;
+  }
+  .nav-img {
+    width: 2.1rem;
+  }
+  .links {
+    margin-right: 0.7rem;
+  }
+  .cardcontainer{
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 441px) {
+  .checkout .h1,
+  .soup .h1 {
+    margin-left: 15%;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 406px) {
+  .checkout .h1,
+  .soup .h1 {
+    margin-left: 9%;
+  }
+  .checkout,
+  .soup {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 384px) {
+  .h1 {
+    margin-left: 0.4rem;
+  }
+  .h1 h1 {
+    font-size: 1.22rem;
+  }
+  .navigation {
+    height: 3rem;
+  }
+  .links h5 {
+    font-size: 0.9rem;
+  }
+  .nav-img {
+    width: 1.9rem;
+  }
+  .links {
+    margin-right: 0.5rem;
+  }
+  .msg textarea {
+    height: 13rem;
+  }
+  .email input {
+    padding: 0.59rem;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .reviewcard {
+    padding: 0.4rem;
+    max-width: 20rem;
+  }
+}
+@media only screen and (max-width: 364px) {
+  .reviewcard {
+    padding: 0.4rem;
+    max-width: 18rem;
+  }
+  .cardcontainer{
+    width: 85%;
+  }
+  .checkout,
+  .soup {
+    width: 95%;
+  }
+  .links h5 {
+    margin-left: 0.6rem;
+    margin-right: 0rem;
+  }
+}
+@media only screen and (max-width: 336px) {
+  .h1 h1 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .links h5 {
+    margin-left: 0.3rem;
+  }
+}
+@media only screen and (max-width: 313px) {
+  .h1 h1{
+    line-height: 1.2rem;
+    margin: 0rem;
+    margin-left: -3px;
+  }
+}

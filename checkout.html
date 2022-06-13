@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <main class="body">
+        <div class="checkout">
+            <div class="heading">
+                <div class="nav-img">
+                    <img src="images/restaurant.png" alt="">
+                </div>
+                <h1>Helen's kitchen</h1>
+            </div>
+            <form action="purchased.html">
+                <div class="email">
+                    <h3>Email</h3>
+                    <input type="email" name="" class="" required id="">
+                </div>
+                <div class="amount">
+                    <h3>Amount &#8358;</h3>
+                    <div class="amountWrapper"></div>
+                </div>
+                <div class="cardNo">
+                    <h3>Card Number</h3>
+                    <input type="number"  maxlength="16" minlength="16" name="" class="" required id="">
+                </div>
+                <div class="wrapper">
+                    <div class="cv">
+                        <h3>Cv</h3>
+                        <input type="number" maxlength="3" minlength="3" name="" required id="">
+                    </div>
+                    <div class="Exp">
+                        <h3>Exp date</h3>
+                        <input  type="number" maxlength="3" minlength="3"  name="" required id="">
+                    </div>
+                </div>
+                <div class="btnContainer"><button>Pay</button></div>
+            </form>
+        </div>
+    </main>
+    <script src="checkout.js"></script>
+</body>
+</html>
