@@ -105,8 +105,8 @@ const  handleSoupCheckout=(item)=>{
     soupprice.innerText=priceno
     sessionStorage.setItem('total',priceno)
     // event for the reset button
-    resetRice.addEventListener('click',()=>{
-        foodprice.innerText=priceno
+    resetSoup.addEventListener('click',()=>{
+        soupprice.innerText=priceno
         sessionStorage.setItem('total',priceno)
     })
     inputs.forEach(item=>item.addEventListener('change', function handleInput(params) {
