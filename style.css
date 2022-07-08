@@ -715,6 +715,10 @@ footer {
   .text-xl{
     font-size: 1.1rem;
   }
+   .cimg {
+    height:60vh;
+  }
+
 }
 @media only screen and (max-height: 590px) {
   .cimg {
