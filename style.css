@@ -716,7 +716,7 @@ footer {
     font-size: 1.1rem;
   }
    .cimg {
-    height:60vh;
+    height:50vh;
   }
 
 }
@@ -724,7 +724,7 @@ footer {
   .cimg {
     width: 90%;
     margin: auto;
-    height:60vh;
+    height:50vh;
   }
   .checkout,
   .soup{
