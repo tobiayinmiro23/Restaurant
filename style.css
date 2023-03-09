@@ -784,6 +784,10 @@ footer {
   .soup textarea {
     padding: 0.59rem;
   }
+  .contactwrapper textarea{
+     height:7rem;
+   }
+
   .customerinfo {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
