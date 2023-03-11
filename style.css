@@ -93,8 +93,9 @@ main h1 {
   color: #ffd000;
   text-align: center;
   font-size: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
+  padding: 2rem 0rem;
+  margin:0rem;
+  letter-spacing:0.1rem;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cardcontainer {
