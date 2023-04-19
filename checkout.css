@@ -135,7 +135,10 @@ button{
         width: 88%;
         margin: auto;
         justify-content: space-between;
-
+    }
+     button{
+        margin-top: 1rem;
+       width: 88%;
     }
 }
 @media (max-width:400px) {
