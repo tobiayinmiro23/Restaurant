@@ -512,7 +512,7 @@ footer {
   margin-right: 2rem;
 }
 .Note {
-  display: inline;
+  display: inline !important;
 }
 .phone {
   display: flex;
