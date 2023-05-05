@@ -933,8 +933,13 @@ footer {
 }
 @media only screen and (max-width: 313px) {
   .h1 h1{
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     margin: 0rem;
-    margin-left: -3px;
+    margin-left: 0px;
+    width:4.7rem;
+    font-size:1.1rem;
   }
+   .links h5 {
+      margin-left: 0.7rem;
+     }
 }
